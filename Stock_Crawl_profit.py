@@ -4,6 +4,8 @@ import urllib
 import time
 #파싱 후 디비 삽입
 
+#파싱하여 기관 평가 db 저장 (강력매수, 매수 등)
+
 from urllib2 import urlopen
 from bs4 import BeautifulSoup
 import sqlite3
