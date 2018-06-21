@@ -38,7 +38,6 @@ conn = sqlite3.connect('test.db')
 cursor = conn.cursor()
 cursor.execute("CREATE TABLE if not exists trade(ID text UNIQUE, Code text, Stock text, Date text, Total text, InstitutionNetDeal text, ForeignNetDeal text, ForeignVol text, ForeignRate text);")
 
-
 #for page in range(1, trendOfInvestorMaxPageNum + 1):
 for a in range(1,len(rows)):
     stockCode=rows[a][0]
