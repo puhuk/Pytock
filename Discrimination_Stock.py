@@ -12,8 +12,8 @@ from bs4 import BeautifulSoup
 
 
 import sqlite3
-
 import datetime
+
 d=datetime.date.today()
 year=str(d.year)
 
