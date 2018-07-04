@@ -17,6 +17,7 @@ if(d.month)<10:
     month="0"+str(d.month)
 else:
     month=str(d.month)
+    
 day=str(d.day)
 
 today=year+"."+month+"."+day
