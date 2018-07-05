@@ -2,6 +2,7 @@
 #Python 2.7 버전 사용
 import urllib
 import time
+
 #디비에서 검색
 
 from urllib2 import urlopen
