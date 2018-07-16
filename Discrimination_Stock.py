@@ -31,6 +31,7 @@ conn = sqlite3.connect('test.db')
 cursor = conn.cursor()
 #cursor.execute("select * from trade where Date= :CP",{"CP":date})
 
+
 cursor.execute("select * from stock_info")
 
 rowss=cursor.fetchall()
