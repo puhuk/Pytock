@@ -9,7 +9,6 @@ table=soup.find("div","first")
 trs=table.find("tr","strong").findAll("td")
 
 #시가총액
-
 total_val=str(trs)[str(trs).find('m">')+3:str(trs).find('</em')].strip()+" "+str(trs)[str(trs).find('em>')+3:str(trs).find('</td')].strip()
 print "시총 : " + total_val
 
