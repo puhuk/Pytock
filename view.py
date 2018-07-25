@@ -4,6 +4,7 @@ from BeautifulSoup import BeautifulSoup
 
 url="http://finance.naver.com/item/main.nhn?code=065680"
 soup = BeautifulSoup(urllib2.urlopen(url).read())
+
 #pkg_list=soup.findAll("div", "first")
 table=soup.find("div","first")
 trs=table.find("tr","strong").findAll("td")
