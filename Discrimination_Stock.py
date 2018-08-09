@@ -7,9 +7,7 @@ import time
 
 from urllib2 import urlopen
 from bs4 import BeautifulSoup
-
 #해당 종목의 거래량 급등 판별
-
 
 import sqlite3
 import datetime
