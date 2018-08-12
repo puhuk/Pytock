@@ -33,7 +33,6 @@ cursor = conn.cursor()
 cursor.execute("select * from stock_info")
 
 rowss=cursor.fetchall()
-
 for i in range(1, len(rowss)):
 #for i in range(1, 15):
         stock_code=rowss[i][1]
